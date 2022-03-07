@@ -51,7 +51,7 @@ class AdaptadorCostum(var context:Context, items:ArrayList<Fruta>):BaseAdapter()
 
     private class ViewHolder(vista:View){
         var imagen:ImageView? = null
-        var nombre:TextView? = null
+       
 
         init {
             nombre= vista.findViewById(R.id.nombre)
