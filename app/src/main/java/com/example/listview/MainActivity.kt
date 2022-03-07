@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
         //val adaptador = ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, frutas)
         val adaptador = AdaptadorCostum(this, frutas)
 
-        lista.adapter = adaptador
+        
 
         lista.onItemClickListener = AdapterView.OnItemClickListener { parent, view, position, id ->
             Toast.makeText(this, frutas.get(position).nombre, Toast.LENGTH_LONG).show()
