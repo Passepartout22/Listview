@@ -17,6 +17,7 @@ class MainActivity : AppCompatActivity() {
         frutas.add(Fruta("Durazno", R.drawable.durazno))
         frutas.add(Fruta("Plátano", R.drawable.platano))
         frutas.add(Fruta("Sandía", R.drawable.sandia))
+        frutas.add(Fruta("Sandía", R.drawable.sandia))
 
         val lista = findViewById<ListView>(R.id.lista)
 
